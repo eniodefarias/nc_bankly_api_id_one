@@ -27,8 +27,13 @@
  - credenciais de acesso:
    - salve os dados/senhas/arquivos com a exata nomeclaruta e dentro dos diretorios abaixo. CUIDADO: os nomes são case-sentive
 	 - PASSPHRASE -> .secret/Credentials/.PASSPHRASE
+	 - CLIENT_ID -> .secret/Credentials/.CLIENT_ID
+	 - CLIENT_SECRET -> .secret/Credentials/.CLIENT_SECRET
+	 - COMPANY_KEY -> .secret/Credentials/.COMPANY_KEY
 	 - certificate PEM -> .secret/Credentials/certificate.pem
 	 - private PEM ->  .secret/Credentials/private.pem
+
+	 
  - ATENÇÃO: por segurança do projeto, os arquivos do diretório ".secret/Credentials/*" estão listados no .gitignore do REPO.
 
 
