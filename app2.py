@@ -33,6 +33,7 @@ payload_token = {
     "scope": ' certificate.create',
     # "scope": "kyc.document.deepface.write"
 }
+
 headers_token = {
     "accept": "application/json",
     "content-type": "application/x-www-form-urlencoded"
