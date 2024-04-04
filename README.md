@@ -44,5 +44,40 @@
  
 ### executando o python
 
-
+python3 app.py
  
+ 
+# Observações, desenvolvimento e notas:
+
+consegui fazer:
+
+(1)autenticação do scope certificate.create para pegar o token
+
+---
+
+estava tentando agora:
+
+(2)utilizar o token anterior para pegar os certificates
+
+mas esse não consegui, eu uso o token gerado, mas retorna dizendo que o token não permite autenticação
+
+---
+
+
+(3)montei o payload para tentar usar o ID One, mas como eu não não consegui as credenciais do (2) esse não foi pra frente
+
+---
+
+
+(4)tava também olhando como faria a integração com Unico e Facematch pra depois validar o documento do (3) com o selfie que tambem seria em (3)
+
+
+
+## considerações finais:
+provavelmente eu devo tá deixando passar algo na credencias(2) ou comi bola e faltou algo no token do (1)
+o que eu faria agora seria começar a rever tudo de novo,
+separar as requisições uma da outra
+e recomeçar a testar um pouco mais devagar.
+
+estou considerando que a documentação do bakly tá certa.
+mas as vezes parece que ela se perde um pouquinho
